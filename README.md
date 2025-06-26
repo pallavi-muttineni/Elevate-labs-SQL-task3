@@ -29,7 +29,7 @@ The main objective of this task is to gain a clear understanding of how to retri
 
 * `task3_select_queries.sql`: An SQL script file containing all the `CREATE TABLE`, `INSERT`, and `SELECT` query examples.
 * `README.md`: This file, explaining the project and answering interview questions.
-* *(Optional) Screenshots folder:* A folder (e.g., `screenshots/`) containing images of the query execution and results for visual confirmation.
+
 
 ## SQL Script Overview
 
@@ -56,7 +56,7 @@ To run the SQL script and observe the results:
     CREATE DATABASE Task3;
     USE Task3;
     ```
-    *(If using SQLite, you can simply open/create a `.db` file.)*
+   
 4.  **Execute the Script:** Open the `task3_select_queries.sql` file in your SQL client and execute the entire script. It will create the tables, insert the sample data, and then run each `SELECT` query, displaying its results.
 
 ## Interview Questions & Answers
