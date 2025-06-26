@@ -54,35 +54,6 @@ mysql> INSERT INTO Products (ProductID, ProductName, Category, Price, StockQuant
     -> (7, 'Coffee Maker', 'Appliances', 80.0, 120);
 Query OK, 7 rows affected (0.00 sec)
 Records: 7  Duplicates: 0  Warnings: 0
-
-mysql> -- Assume the following data for demonstration:
-mysql>
-mysql> -- Employees Table:
-mysql> -- EmployeeID | FirstName | LastName | Department | Salary | HireDate
-mysql> -- -----------|-----------|----------|------------|--------|-----------
-mysql> -- 101        | Alice     | Smith    | HR         | 60000  | 2020-01-15
-mysql> -- 102        | Bob       | Johnson  | IT         | 75000  | 2019-03-20
-mysql> -- 103        | Carol     | Davis    | HR         | 62000  | 2021-07-01
-mysql> -- 104        | David     | Brown    | Sales      | 80000  | 2018-05-10
-mysql> -- 105        | Eve       | Miller   | IT         | 78000  | 2020-11-25
-mysql> -- 106        | Frank     | Green    | Sales      | 85000  | 2017-09-01
-mysql>
-mysql> -- Products Table:
-mysql> -- ProductID | ProductName   | Category  | Price | StockQuantity
-mysql> -- -----------|---------------|-----------|-------|---------------
-mysql> -- 1         | Laptop        | Electronics| 1200.0| 50
-mysql> -- 2         | Mouse         | Electronics| 25.0  | 200
-mysql> -- 3         | Keyboard      | Electronics| 75.0  | 150
-mysql> -- 4         | Desk Chair    | Furniture | 150.0 | 80
-mysql> -- 5         | Bookshelf     | Furniture | 200.0 | 30
-mysql> -- 6         | Monitor       | Electronics| 300.0 | 100
-mysql> -- 7         | Coffee Maker  | Appliances| 80.0  | 120
-mysql>
-mysql> -- --- SQL Query Examples ---
-mysql>
-mysql> -- 1. Use SELECT * and specific columns
-mysql>
-mysql> -- SELECT * : Retrieve all columns from the Employees table
 mysql> SELECT *
     -> FROM Employees;
 +------------+-----------+----------+------------+--------+------------+
